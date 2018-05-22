@@ -1,0 +1,61 @@
+@import '../../assets/main';
+.homepage{
+    height: 85vh;
+    min-height: 800px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    .side_left{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        &-content{
+            margin: 8vw auto;
+            width: 65%;
+            h1{
+                margin-bottom: 10pt;
+            }
+            h3{
+                margin-bottom: 35pt;
+            }
+            button{
+                @include button-plain;
+                margin-top: 100pt;
+            }
+        }
+
+    }
+    .logo{
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        z-index: 3;
+    }
+    .side_right{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        &-overlay{
+            background-color: $primary;
+            z-index: 2;
+            opacity: 0.5;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width:100%;
+            height: 100%;
+        }
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}

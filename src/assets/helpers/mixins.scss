@@ -1,0 +1,38 @@
+@import '../partials/colorscheme';
+@import '../partials/font';
+
+@mixin button-plain {
+    width: 240px;
+    height: 65px;
+    background: $primary-gradient;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, .1);
+    color: white;
+    border: none;
+    @include buttonfont;
+    border-radius: 32.5px;
+    outline: none;
+}
+
+@mixin button-plainWhite {
+  width: 240px;
+  height: 65px;
+  background: white;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, .1);
+  color: $primary-blue !important;
+  border: none;
+  @include buttonfont;
+  border-radius: 32.5px;
+  outline: none;
+}
+
+@mixin button-line {
+  width: 240px;
+  height: 65px;
+  background: none;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, .1);
+  color: white;
+  border: 1px solid white;
+  @include buttonfont;
+  border-radius: 32.5px;
+  outline: none;
+}

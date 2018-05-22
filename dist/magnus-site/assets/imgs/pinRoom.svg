@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="189px" viewBox="0 0 180 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>pinRoom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FDFDFD" offset="0%"></stop>
+            <stop stop-color="#F9F9F9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#90FBEB" offset="0%"></stop>
+            <stop stop-color="#58DCC1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MagnusLAndingPage" transform="translate(-626.000000, -305.000000)">
+            <g id="map" transform="translate(151.000000, 0.000000)">
+                <g id="pinRoom" transform="translate(475.000000, 305.000000)">
+                    <polygon id="Path-14" fill="#272727" points="89.2712551 188.866397 173.076923 139.676113 83.805668 87.4493927 0.607287449 138.157895"></polygon>
+                    <path d="M0.607287449,138.461538 L84.4129555,88.0566802 L88.6639676,1.2145749 C30.3318521,34.5633893 1.18205448,51.3650087 1.2145749,51.6194332 C1.24709532,51.8738576 1.04466617,80.8212261 0.607287449,138.461538 Z" id="Path-3" fill="url(#linearGradient-1)"></path>
+                    <polygon id="Path-14-Copy" fill="url(#linearGradient-2)" points="173.076923 139.676113 179.149798 51.6194332 88.6639676 -1.42108547e-14 83.805668 88.0566802"></polygon>
+                    <g id="pin-copy" transform="translate(53.441296, 44.939271)">
+                        <g id="Group">
+                            <polygon id="Path-26" fill="#572FD2" points="19.8218623 32.8382305 50.7206478 13.9489829 29.7327935 0.29060381 20.9878543 5.52147239"></polygon>
+                            <polygon id="Path-15" fill="#4522B0" points="0 32.8382305 21.2793522 41.265741 22.4453441 4.64966096 4.95546559 15.6926057"></polygon>
+                            <polygon id="Path-27" fill="#4921C4" points="21.5708502 30.5134001 53.0526316 43.5905715 58.2995951 32.5476267 54.2186235 15.6926057 47.2226721 11.6241524"></polygon>
+                            <polygon id="Path-29" fill="#4BE6C3" points="14.8663968 63.9328382 28.8582996 47.0778172 20.9878543 40.9751372 0 32.8382305"></polygon>
+                            <polygon id="Path-32" fill="#A5FFEB" points="14.8663968 63.9328382 28.8582996 47.0778172 38.4777328 74.3945754 29.7327935 94.7368421"></polygon>
+                            <polygon id="Path-28" fill="#57F5D2" points="21.2793522 41.265741 21.5708502 30.5134001 53.0526316 43.5905715 38.4777328 74.3945754 28.8582996 47.0778172"></polygon>
+                        </g>
+                        <circle id="Oval-7" fill="#FFFFFF" cx="29.1497976" cy="36.437247" r="12.145749"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

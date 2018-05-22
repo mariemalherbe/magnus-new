@@ -1,0 +1,56 @@
+@import '../../assets/main';
+
+h2{
+  width: 50vw;
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1{
+  color: $primary;
+  text-align: center;
+}
+
+.block_title{
+  margin-top: 100px;
+  margin-left: 8em;
+}
+
+.block_detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  &--left{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+  }
+  &--right{
+    width: 40%;
+    ul{
+      li{
+        margin: 100px 0px;
+        div{
+          display: flex;
+          align-items: center;
+          span{
+            font-family : $font-family;
+            font-size : 3em;
+            color: $primary;
+            font-weight: $bold;
+            margin-left: 1em;
+          }
+        }
+        p{
+          max-width: 415px;
+          margin-top: 60px;
+          font-weight: 400;
+          line-height: 27px;
+        }
+
+      }
+    }
+  }
+}
