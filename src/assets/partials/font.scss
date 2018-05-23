@@ -35,6 +35,9 @@ h2{
     color: $light-grey;
     font-weight: $regular;
     line-height: 2em;
+    @media screen and (max-width: 1030px) {
+        width: 100vw !important;
+      }
 }
 
 p{
