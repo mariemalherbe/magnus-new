@@ -16,13 +16,18 @@ export class HomePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(document.documentElement.clientWidth);
     window.sr = ScrollReveal();
+    
+    if (document.documentElement.clientWidth > 425) { 
+    console.log(document.documentElement.clientWidth > 425);   
     sr.reveal('.logo',{origin: 'top',});
     sr.reveal('.title', {delay: 200,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
     sr.reveal('.subtitle', {delay: 300,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
     sr.reveal('.paragraph', {delay: 500,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
     sr.reveal('.button', {delay: 1000,origin:'bottom',distance: '200px', ease: 'ease-in-out', duration: 750});
     sr.reveal('.side_right', {delay: 300, origin:'bottom', scale: 0.8, ease: 'ease-in-out', duration: 500});
+    }
   }
 
 

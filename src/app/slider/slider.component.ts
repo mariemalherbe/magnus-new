@@ -14,10 +14,14 @@ export class SliderComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    sr.reveal('.title', {delay: 200,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
-    sr.reveal('.subtitle', {delay: 300,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
-    sr.reveal('.paragraph', {delay: 500, origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
-    sr.reveal('.block_testimony', {delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000});
+
+    if (document.documentElement.clientWidth > 425) { 
+      sr.reveal('.title', {delay: 200,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
+      sr.reveal('.subtitle', {delay: 300,origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
+      sr.reveal('.paragraph', {delay: 500, origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
+      sr.reveal('.block_testimony', {delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000});
+    }
+
   }
 
 }
