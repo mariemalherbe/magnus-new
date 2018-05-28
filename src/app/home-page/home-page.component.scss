@@ -75,4 +75,13 @@
             object-fit: contain;
         }
     }
+
+    #buttonMagnus{
+        @include button-plain;
+        margin: 50pt auto;
+        display: none;
+        @media screen and (max-width: 425px){
+            display: block;
+        }
+    }
 }

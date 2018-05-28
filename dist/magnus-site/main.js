@@ -187,11 +187,13 @@ var ContactComponent = /** @class */ (function () {
     function ContactComponent() {
     }
     ContactComponent.prototype.ngOnInit = function () {
-        sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.social_item', { delay: 500, duration: 750, origin: 'right' }, 100);
-        sr.reveal('.social', { delay: 750, duration: 500, opacity: 0 });
+        if (document.documentElement.clientWidth > 425) {
+            sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.social_item', { delay: 500, duration: 750, origin: 'right' }, 100);
+            sr.reveal('.social', { delay: 750, duration: 500, opacity: 0 });
+        }
     };
     ContactComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -255,10 +257,12 @@ var FonctionnementComponent = /** @class */ (function () {
     function FonctionnementComponent() {
     }
     FonctionnementComponent.prototype.ngOnInit = function () {
-        sr.reveal('.title', { delay: 100, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.subtitle', { delay: 200, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.list_item', { delay: 500, duration: 750, origin: 'right' }, 100);
-        sr.reveal('.img', { delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000 });
+        if (document.documentElement.clientWidth > 425) {
+            sr.reveal('.title', { delay: 100, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.subtitle', { delay: 200, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.list_item', { delay: 500, duration: 750, origin: 'right' }, 100);
+            sr.reveal('.img', { delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000 });
+        }
     };
     FonctionnementComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -322,13 +326,17 @@ var HomePageComponent = /** @class */ (function () {
     function HomePageComponent() {
     }
     HomePageComponent.prototype.ngOnInit = function () {
+        console.log(document.documentElement.clientWidth);
         window.sr = ScrollReveal();
-        sr.reveal('.logo', { origin: 'top', });
-        sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.button', { delay: 1000, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 750 });
-        sr.reveal('.side_right', { delay: 300, origin: 'bottom', scale: 0.8, ease: 'ease-in-out', duration: 500 });
+        if (document.documentElement.clientWidth > 425) {
+            console.log(document.documentElement.clientWidth > 425);
+            sr.reveal('.logo', { origin: 'top', });
+            sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.button', { delay: 1000, origin: 'bottom', distance: '200px', ease: 'ease-in-out', duration: 750 });
+            sr.reveal('.side_right', { delay: 300, origin: 'bottom', scale: 0.8, ease: 'ease-in-out', duration: 500 });
+        }
     };
     HomePageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -392,10 +400,12 @@ var SliderComponent = /** @class */ (function () {
     function SliderComponent() {
     }
     SliderComponent.prototype.ngOnInit = function () {
-        sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.block_testimony', { delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000 });
+        if (document.documentElement.clientWidth > 425) {
+            sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.block_testimony', { delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000 });
+        }
     };
     SliderComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -459,11 +469,13 @@ var StepsComponent = /** @class */ (function () {
     function StepsComponent() {
     }
     StepsComponent.prototype.ngOnInit = function () {
-        sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.block_anim', { delay: 100, opacity: 0, ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
-        sr.reveal('.img', { delay: 300, origin: 'right', distance: '200px', ease: 'ease-in-out', duration: 1000 });
+        if (document.documentElement.clientWidth > 425) {
+            sr.reveal('.title', { delay: 200, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.block_anim', { delay: 100, opacity: 0, ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.subtitle', { delay: 300, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.paragraph', { delay: 500, origin: 'left', distance: '200px', ease: 'ease-in-out', duration: 500 });
+            sr.reveal('.img', { delay: 300, origin: 'right', distance: '200px', ease: 'ease-in-out', duration: 1000 });
+        }
     };
     StepsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({

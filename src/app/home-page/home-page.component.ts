@@ -28,6 +28,13 @@ export class HomePageComponent implements OnInit {
     sr.reveal('.button', {delay: 1000,origin:'bottom',distance: '200px', ease: 'ease-in-out', duration: 750});
     sr.reveal('.side_right', {delay: 300, origin:'bottom', scale: 0.8, ease: 'ease-in-out', duration: 500});
     }
+
+    let video = <HTMLMediaElement> document.getElementById('videoMagnus'); 
+    var button = document.getElementById('buttonMagnus'); 
+    button.addEventListener('click',function(){ 
+      video.play(); 
+      console.log('ok');
+    },false);
   }
 
 
