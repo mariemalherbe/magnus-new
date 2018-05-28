@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="22px" viewBox="0 0 32 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MagnusLAndingPage" transform="translate(-1108.000000, -4349.000000)" fill="#454545" fill-rule="nonzero">
+            <g id="exempleUse" transform="translate(2.000000, 3262.000000)">
+                <g id="nav" transform="translate(1106.000000, 1087.000000)">
+                    <g id="arrows">
+                        <path d="M10.4385652,0.328144824 C10.889688,-0.109381608 11.5999016,-0.109381608 12.0510244,0.328144824 C12.4869065,0.750889957 12.4869065,1.45447976 12.0510244,1.87623947 L3.87493154,9.80591334 L30.8549203,9.80591334 C31.4838505,9.80591334 32,10.2907399 32,10.9007148 C32,11.5106898 31.4838505,12.0112831 30.8549203,12.0112831 L3.87493154,12.0112831 L12.0510244,19.9261756 C12.4869065,20.3637021 12.4869065,21.0682773 12.0510244,21.490037 C11.5999016,21.9275634 10.889688,21.9275634 10.4385652,21.490037 L0.326911628,11.6831382 C-0.108970543,11.2603931 -0.108970543,10.5568033 0.326911628,10.1350436 L10.4385652,0.328144824 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

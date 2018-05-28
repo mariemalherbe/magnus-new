@@ -5,18 +5,35 @@
         <h4 class="subtitle">you just need to enjoy the journey !</h4>
       </div>
 
-      <div class="block_testimony">
-        <div class="block_inner">
-          <div class="block_inner--left">
-            <p class="block_place">Mairie de Paris</p>
-            <p class="block_event">Hacking de l'hôtel de ville</p>
-            <p class="block_city">Paris</p>
-            <p class="block_description">The Mairie the Paris launched in mid-march its special event the « Hacking of hotel de ville ».
-              …</p>
-          </div>
+   <div class="block_testimony">
+      <ngu-carousel
+      [inputs]="carouselBanner">
+          <ngu-item NguCarouselItem>
+              <div class="block_inner"> 
+                    <div class="block_inner--left">
+                      <p class="block_place">Mairie de Paris</p>
+                      <p class="block_event">Hacking de l'hôtel de ville</p>
+                      <p class="block_city">Paris</p>
+                      <p class="block_description">The Mairie the Paris launched in mid-march its special event the « Hacking of hotel de ville ».
+                        …</p>
+                    </div>
+                    <img class="block_inner--right" src="../../assets/imgs/hacking.png" alt="">
+              </div>
+          </ngu-item>
 
-          <div class="block_inner--right"></div>
-        </div>
-      </div>
-
+          <ngu-item NguCarouselItem>
+                  <div class="block_inner"> 
+                <div class="block_inner--left">
+                  <p class="block_place">Ratp</p>
+                  <p class="block_event">VivaTech 2018</p>
+                  <p class="block_city">Paris - Porte de Versailles</p>
+                  <p class="block_description">We mapped the booth of Ratp at vivatech so visiotrs could see their position on the map and find the startups they wanted to meet !</p>
+                </div>
+                <img class="block_inner--right" src="../../assets/imgs/vivatech.jpg" alt="">
+            </div>
+          </ngu-item>
+              <button NguCarouselPrev class='leftRs'></button>
+              <button NguCarouselNext class='rightRs'></button>
+    </ngu-carousel>
+  </div>
 </section>
