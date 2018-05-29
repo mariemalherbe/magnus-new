@@ -14,8 +14,10 @@ declare let carouselBanner: any;
 })
 export class SliderComponent implements OnInit {
 
+  carouselBanner: any;
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit() {
 
@@ -25,6 +27,7 @@ export class SliderComponent implements OnInit {
       sr.reveal('.paragraph', {delay: 500, origin:'left',distance: '200px', ease: 'ease-in-out', duration: 500});
       sr.reveal('.block_testimony', {delay: 300, scale: 0.5, ease: 'ease-in-out', duration: 1000});
     }
+
 
     this.carouselBanner = {
       grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
@@ -43,4 +46,4 @@ export class SliderComponent implements OnInit {
 
   }
 
-}
+

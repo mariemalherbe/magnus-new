@@ -49,6 +49,9 @@
     margin-top: 100px;
     position: relative;
     margin-left: 8vw;
+    @media screen and (max-width: 1030px) {
+      margin-left: inherit;
+    }
     ul{
       margin-right: 300px;
       @media screen and (max-width: 1030px) {

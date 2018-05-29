@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 
 declare let ScrollReveal: any;
 declare let sr: any;
@@ -13,10 +14,22 @@ export class HomePageComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(meta: Meta, title: Title) { 
+
+    title.setTitle('Magnus Home Page');
+
+    meta.addTags([
+      {
+        name: 'author', content: 'magnus.uppli.io'
+      },
+      {
+        name: 'keywords', content: 'magnus, indoor, location, localization, magnetisme, beacons'
+      }
+    ])
+
+  }
 
   ngOnInit() {
-    console.log(document.documentElement.clientWidth);
     window.sr = ScrollReveal();
     
     if (document.documentElement.clientWidth > 425) { 
@@ -33,7 +46,6 @@ export class HomePageComponent implements OnInit {
     var button = document.getElementById('buttonMagnus'); 
     button.addEventListener('click',function(){ 
       video.play(); 
-      console.log('ok');
     },false);
   }
 
