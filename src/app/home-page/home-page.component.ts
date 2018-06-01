@@ -31,6 +31,9 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit() {
     window.sr = ScrollReveal();
+    let videoChrome = <HTMLMediaElement> document.getElementById('videoMagnus');
+
+    videoChrome.play();
     
     if (document.documentElement.clientWidth > 425) { 
     console.log(document.documentElement.clientWidth > 425);   
